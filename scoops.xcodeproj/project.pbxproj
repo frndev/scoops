@@ -8,20 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		A16DD8A81DC0C2C700ECE259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16DD8A71DC0C2C700ECE259 /* AppDelegate.swift */; };
-		A16DD8AA1DC0C2C700ECE259 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16DD8A91DC0C2C700ECE259 /* ViewController.swift */; };
+		A16DD8AA1DC0C2C700ECE259 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16DD8A91DC0C2C700ECE259 /* LoginViewController.swift */; };
 		A16DD8AD1DC0C2C700ECE259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16DD8AB1DC0C2C700ECE259 /* Main.storyboard */; };
 		A16DD8AF1DC0C2C700ECE259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A16DD8AE1DC0C2C700ECE259 /* Assets.xcassets */; };
 		A16DD8B21DC0C2C700ECE259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16DD8B01DC0C2C700ECE259 /* LaunchScreen.storyboard */; };
+		A16DD8BB1DC0C66000ECE259 /* MicrosoftAzureMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A16DD8BA1DC0C66000ECE259 /* MicrosoftAzureMobile.framework */; };
+		A16DD8BE1DC0C90300ECE259 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A16DD8BD1DC0C90300ECE259 /* WebKit.framework */; };
+		A1FFE9BD1DC674DC00C82040 /* Readers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FFE9BC1DC674DC00C82040 /* Readers.storyboard */; };
+		A1FFE9BF1DC6750E00C82040 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FFE9BE1DC6750E00C82040 /* NewsTableViewController.swift */; };
+		A1FFE9C11DC6765F00C82040 /* Writers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FFE9C01DC6765F00C82040 /* Writers.storyboard */; };
+		A1FFE9C31DC6767B00C82040 /* WritersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FFE9C21DC6767B00C82040 /* WritersTableViewController.swift */; };
+		A1FFE9C81DC67D8600C82040 /* AzureStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FFE9C71DC67D8600C82040 /* AzureStack.swift */; };
+		A1FFE9CA1DC67F8D00C82040 /* UIViewController+Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FFE9C91DC67F8D00C82040 /* UIViewController+Alerts.swift */; };
+		A1FFE9CC1DC682F600C82040 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FFE9CB1DC682F600C82040 /* NewViewController.swift */; };
+		A1FFE9CE1DC690C000C82040 /* AZSClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1FFE9CD1DC690BF00C82040 /* AZSClient.framework */; };
+		A1FFE9D21DC69AF100C82040 /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FFE9D11DC69AF100C82040 /* UIImage+Resize.swift */; };
+		A1FFE9D51DC69CB000C82040 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A1FFE9D31DC69B6600C82040 /* libxml2.2.tbd */; };
+		A1FFE9D71DC6B0CE00C82040 /* NewEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FFE9D61DC6B0CE00C82040 /* NewEntry.swift */; };
+		A1FFE9D91DC6B55200C82040 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FFE9D81DC6B55200C82040 /* NewsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A16DD8A41DC0C2C600ECE259 /* scoops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scoops.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16DD8A71DC0C2C700ECE259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A16DD8A91DC0C2C700ECE259 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A16DD8A91DC0C2C700ECE259 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A16DD8AC1DC0C2C700ECE259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A16DD8AE1DC0C2C700ECE259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A16DD8B11DC0C2C700ECE259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A16DD8B31DC0C2C700ECE259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A16DD8B91DC0C5FE00ECE259 /* azure-bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "azure-bridging-header.h"; sourceTree = "<group>"; };
+		A16DD8BA1DC0C66000ECE259 /* MicrosoftAzureMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MicrosoftAzureMobile.framework; sourceTree = "<group>"; };
+		A16DD8BD1DC0C90300ECE259 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		A1FFE9BC1DC674DC00C82040 /* Readers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Readers.storyboard; sourceTree = "<group>"; };
+		A1FFE9BE1DC6750E00C82040 /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		A1FFE9C01DC6765F00C82040 /* Writers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Writers.storyboard; sourceTree = "<group>"; };
+		A1FFE9C21DC6767B00C82040 /* WritersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WritersTableViewController.swift; sourceTree = "<group>"; };
+		A1FFE9C71DC67D8600C82040 /* AzureStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AzureStack.swift; sourceTree = "<group>"; };
+		A1FFE9C91DC67F8D00C82040 /* UIViewController+Alerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alerts.swift"; sourceTree = "<group>"; };
+		A1FFE9CB1DC682F600C82040 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		A1FFE9CD1DC690BF00C82040 /* AZSClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AZSClient.framework; sourceTree = "<group>"; };
+		A1FFE9D11DC69AF100C82040 /* UIImage+Resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
+		A1FFE9D31DC69B6600C82040 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		A1FFE9D61DC6B0CE00C82040 /* NewEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewEntry.swift; sourceTree = "<group>"; };
+		A1FFE9D81DC6B55200C82040 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +58,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1FFE9D51DC69CB000C82040 /* libxml2.2.tbd in Frameworks */,
+				A16DD8BE1DC0C90300ECE259 /* WebKit.framework in Frameworks */,
+				A16DD8BB1DC0C66000ECE259 /* MicrosoftAzureMobile.framework in Frameworks */,
+				A1FFE9CE1DC690C000C82040 /* AZSClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +71,10 @@
 		A16DD89B1DC0C2C600ECE259 = {
 			isa = PBXGroup;
 			children = (
+				A16DD8B91DC0C5FE00ECE259 /* azure-bridging-header.h */,
 				A16DD8A61DC0C2C600ECE259 /* scoops */,
 				A16DD8A51DC0C2C600ECE259 /* Products */,
+				A16DD8BC1DC0C90300ECE259 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +89,59 @@
 		A16DD8A61DC0C2C600ECE259 /* scoops */ = {
 			isa = PBXGroup;
 			children = (
+				A1FFE9C61DC67D7200C82040 /* Azure */,
+				A1FFE9C41DC67CCA00C82040 /* Writers */,
+				A1FFE9C51DC67CD200C82040 /* Readers */,
 				A16DD8A71DC0C2C700ECE259 /* AppDelegate.swift */,
-				A16DD8A91DC0C2C700ECE259 /* ViewController.swift */,
+				A16DD8A91DC0C2C700ECE259 /* LoginViewController.swift */,
 				A16DD8AB1DC0C2C700ECE259 /* Main.storyboard */,
 				A16DD8AE1DC0C2C700ECE259 /* Assets.xcassets */,
 				A16DD8B01DC0C2C700ECE259 /* LaunchScreen.storyboard */,
 				A16DD8B31DC0C2C700ECE259 /* Info.plist */,
+				A1FFE9C91DC67F8D00C82040 /* UIViewController+Alerts.swift */,
+				A1FFE9D11DC69AF100C82040 /* UIImage+Resize.swift */,
+				A1FFE9D61DC6B0CE00C82040 /* NewEntry.swift */,
 			);
 			path = scoops;
+			sourceTree = "<group>";
+		};
+		A16DD8BC1DC0C90300ECE259 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1FFE9D31DC69B6600C82040 /* libxml2.2.tbd */,
+				A1FFE9CD1DC690BF00C82040 /* AZSClient.framework */,
+				A16DD8BA1DC0C66000ECE259 /* MicrosoftAzureMobile.framework */,
+				A16DD8BD1DC0C90300ECE259 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1FFE9C41DC67CCA00C82040 /* Writers */ = {
+			isa = PBXGroup;
+			children = (
+				A1FFE9C01DC6765F00C82040 /* Writers.storyboard */,
+				A1FFE9C21DC6767B00C82040 /* WritersTableViewController.swift */,
+				A1FFE9CB1DC682F600C82040 /* NewViewController.swift */,
+				A1FFE9D81DC6B55200C82040 /* NewsTableViewCell.swift */,
+			);
+			name = Writers;
+			sourceTree = "<group>";
+		};
+		A1FFE9C51DC67CD200C82040 /* Readers */ = {
+			isa = PBXGroup;
+			children = (
+				A1FFE9BC1DC674DC00C82040 /* Readers.storyboard */,
+				A1FFE9BE1DC6750E00C82040 /* NewsTableViewController.swift */,
+			);
+			name = Readers;
+			sourceTree = "<group>";
+		};
+		A1FFE9C61DC67D7200C82040 /* Azure */ = {
+			isa = PBXGroup;
+			children = (
+				A1FFE9C71DC67D8600C82040 /* AzureStack.swift */,
+			);
+			name = Azure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +206,9 @@
 			files = (
 				A16DD8B21DC0C2C700ECE259 /* LaunchScreen.storyboard in Resources */,
 				A16DD8AF1DC0C2C700ECE259 /* Assets.xcassets in Resources */,
+				A1FFE9C11DC6765F00C82040 /* Writers.storyboard in Resources */,
 				A16DD8AD1DC0C2C700ECE259 /* Main.storyboard in Resources */,
+				A1FFE9BD1DC674DC00C82040 /* Readers.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +219,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A16DD8AA1DC0C2C700ECE259 /* ViewController.swift in Sources */,
+				A1FFE9CC1DC682F600C82040 /* NewViewController.swift in Sources */,
+				A16DD8AA1DC0C2C700ECE259 /* LoginViewController.swift in Sources */,
+				A1FFE9D91DC6B55200C82040 /* NewsTableViewCell.swift in Sources */,
 				A16DD8A81DC0C2C700ECE259 /* AppDelegate.swift in Sources */,
+				A1FFE9BF1DC6750E00C82040 /* NewsTableViewController.swift in Sources */,
+				A1FFE9C81DC67D8600C82040 /* AzureStack.swift in Sources */,
+				A1FFE9D71DC6B0CE00C82040 /* NewEntry.swift in Sources */,
+				A1FFE9D21DC69AF100C82040 /* UIImage+Resize.swift in Sources */,
+				A1FFE9CA1DC67F8D00C82040 /* UIViewController+Alerts.swift in Sources */,
+				A1FFE9C31DC6767B00C82040 /* WritersTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,12 +350,22 @@
 		A16DD8B71DC0C2C700ECE259 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X44M3PTYDX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = scoops/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.francisco.scoops;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "azure-bridging-header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -273,12 +373,22 @@
 		A16DD8B81DC0C2C700ECE259 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X44M3PTYDX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = scoops/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.francisco.scoops;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "azure-bridging-header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +412,7 @@
 				A16DD8B81DC0C2C700ECE259 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
